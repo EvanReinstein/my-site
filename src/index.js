@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import NavBar from './components/NavBar';
+import Main from './views/Main';
 
 
 ReactDOM.render(
   <Router>
-    <NavBar />
+    <Main />
   </Router>,
   document.getElementById('root'));
