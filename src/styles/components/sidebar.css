@@ -3,13 +3,13 @@
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 30%;
+  width: 33%;
   margin: 0 auto;
   background-color: rgba(27, 51, 71, 0.5);
 }
 
 .sidebar .header {
-  height: 12em;
+  height: 20em;
   border-bottom: 1px solid red;
   margin-bottom: 2em;
 }
@@ -28,11 +28,17 @@
 }
 
 .sidebar .blurb p {
-  height: 12em;
+  height: 15em;
   line-height: 2em;
   border-bottom: 1px solid red;
 }
 
-.sidebar .contact {
+.sidebar .contact ul {
+  display: flex;
+  margin-top: 2em;
+}
 
+.sidebar .contact .link {
+  color: black;
+  padding-right: 1em;
 }

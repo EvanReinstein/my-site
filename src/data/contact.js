@@ -1,22 +1,22 @@
-import faGithub from "@fortawesome/fontawesome-free-brands/faGithub";
-import faLinkedinIn from "@fortawesome/fontawesome-free-brands/faLinkedinIn";
-import faEnvelope from "@fortawesome/fontawesome-free-regular/faEnvelope";
+import { github } from 'react-icons-kit/fa/github';
+import { linkedin } from 'react-icons-kit/fa/linkedin';
+import { envelope } from 'react-icons-kit/fa/envelope';
 
 const data = [
     {
         link: "https://github.com/EvanReinstein",
         label: "Github",
-        icon: faGithub
+        icon: github
     },
     {
         link: "https://www.linkedin.com/in/evan-reinstein/",
         label: "LinkedIn",
-        icon: faLinkedIn
+        icon: linkedin
     },
     {
         link: "mailto:edreins@gmail.com",
         label: "Email",
-        icon: faEnvelope
+        icon: envelope
     },
 ]
 
