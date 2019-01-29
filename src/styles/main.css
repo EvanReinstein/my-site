@@ -17,3 +17,5 @@ body {
 @import "./components/experience.css";
 @import "./components/intro.css";
 @import "./components/navbar.css";
+@import "./components/sidebar.css";
+@import "./components/content.css";

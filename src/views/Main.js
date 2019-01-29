@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import Navbar from "../components/NavBar";
 import Base from "../components/Base";
-import Content from "../containers/Content";
+
 
 class Main extends Component {
   render() {
@@ -10,7 +10,6 @@ class Main extends Component {
       <div>
         <Navbar />
         <Base />
-        <Content />
       </div>
     );
   }

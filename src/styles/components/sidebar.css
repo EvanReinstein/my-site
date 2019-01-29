@@ -1,0 +1,38 @@
+.sidebar {
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+  background-color: rgba(27, 51, 71, 0.5);
+}
+
+.sidebar .header {
+  height: 12em;
+  border-bottom: 1px solid red;
+  margin-bottom: 2em;
+}
+
+.sidebar .header h1 {
+  font-size: 2em;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  padding-top: 2em;
+  padding-bottom: .75em;
+}
+
+.sidebar .header p {
+
+}
+
+.sidebar .blurb p {
+  height: 12em;
+  line-height: 2em;
+  border-bottom: 1px solid red;
+}
+
+.sidebar .contact {
+
+}
