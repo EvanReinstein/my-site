@@ -13,11 +13,11 @@ class Content extends Component {
         return (
             <div>
               <Switch>
-                <Route path='/' component={StaticIntro}/>
-                <Route path='/About' component={About}/>
-                <Route path='/Projects' component={Projects}/>
-                <Route path='/Experience' component={Experience}/>
-                <Route path='/Contact' component={Contact}/>
+                <Route path='/' exact component={StaticIntro}/>
+                <Route path='/about' exact component={About}/>
+                <Route path='/projects' exact component={Projects}/>
+                <Route path='/experience' exact component={Experience}/>
+                <Route path='/contact' exact component={Contact}/>
               </Switch>
             </div>
         )
