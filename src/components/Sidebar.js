@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from 'react-icons-kit';
-import data from '../data/contact';
+import data from '../data/';
 
 const Sidebar = () => {
   return (
@@ -14,7 +14,7 @@ const Sidebar = () => {
       </section>
       <section className="contact">
         <ul>
-          {data.map(icon =>
+          {data.contact.map(icon =>
             <li key={icon.label} className="link">
               <a href={`${icon.link}`} target="_blank" rel="noopener noreferrer">
                 <Icon icon={icon.icon} size={22}/>
