@@ -5,7 +5,7 @@ import wayfarer from '../images/sf.jpg';
 const data  = [
   {
   title: "Crow Watch",
-  desc: "An app for keeping an eye on my deck, in order to prevent crows from making it dirty!",
+  desc: "An app for keeping an eye on my deck, in order to prevent crows from making it dirty!  As my final project I taught myself the basics of React Native and dove into AWS's Amplify CLI.",
   tech: ["React Native", "Expo", "AWS: Amplify", "AWS: Cognito", "AWS: S3", "AWS: IAM"],
   image: crow,
   repoLink: "https://github.com/EvanReinstein/crow-watch-front-end",
@@ -14,7 +14,7 @@ const data  = [
   },
   {
     title: "Meenstream",
-    desc: "An app built with Python and Django to experiment with the Spotify API",
+    desc: "An app built with Python and Django to experiment with the Spotify API.",
     tech: ["Python", "Django", "PostgresQL", "CSS3", "Heroku"],
     image: logo,
     repoLink: "https://github.com/EvanReinstein/meenstream",
@@ -23,7 +23,7 @@ const data  = [
   },
   {
     title: "Wayfarer",
-    desc: "An app for sharing travel tips",
+    desc: "An app for sharing travel tips.",
     tech: ["React", "Mongoose", "Express", "Node.js", "MongoDB", "Bootstrap", "JSON Web Token", "BCrypt"],
     image: wayfarer,
     repoLink: "https://git.generalassemb.ly/EvanReinstein/wayfarer-front-end",
@@ -32,7 +32,7 @@ const data  = [
   },
   {
     title: "Check Your Rep",
-    desc: "An app that allows you to search for your local elected representatives",
+    desc: "An app that allows you to search for your local elected representatives.  Check back soo for a refreshed version using React!",
     tech: ["jQuery", "CSS", "Node.js", "Express", "MongoDB"],
     image: "",
     repoLink: "https://github.com/EvanReinstein/find_rep_app",
