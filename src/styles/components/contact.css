@@ -34,6 +34,15 @@
   justify-content: center;
 }
 
+.contact-message {
+  margin-bottom: 2em;
+  line-height: 2;
+}
+
+.contact-message a {
+  border-bottom: 1px dotted rgb(130, 184, 255);
+}
+
 .contact ul {
   display: flex;
   margin-bottom: 2em;
