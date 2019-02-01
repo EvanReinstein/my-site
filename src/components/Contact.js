@@ -8,7 +8,7 @@ const Contact = (props) => (
       <p className="subtitle">Hit me up!</p>
     </header>
     <section>
-      <p className="contact-message">My inbox is always open.  Whether you have a project in mind or would like to connect, please feel free to <a href="mailto:edreins@gmail.com"> reach out!</a></p>
+      <p className="contact-message">My inbox is always open.  Whether you have a project in mind or would like to connect, please feel free to <a href="mailto:edreins@gmail.com" className="linked-text"> reach out!</a></p>
       <ul>
         {props.data.map(icon => (
           <li key={icon.label} className="link">
