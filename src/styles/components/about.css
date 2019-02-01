@@ -73,7 +73,8 @@
   padding: 0 5em 1em 0;
 }
 
-.skill {
+.skill,
+.newSkills {
   padding: 0 0 1.3em 1em;
 }
 

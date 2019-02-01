@@ -58,7 +58,9 @@ const About = (props) => {
           <h3>Some things that I am keen on investigating</h3>
           <ul>
             {props.data.planningToLearn.map(newTech => (
-              <li key={newTech}><Icon icon={caretRight} size={12} className="icon"/>{newTech}</li>
+              <li key={newTech} className="newSkills">
+                <Icon icon={caretRight} size={12} className="icon"/>{newTech}
+              </li>
             ))}
           </ul>
         </article>

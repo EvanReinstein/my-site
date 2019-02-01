@@ -5,7 +5,7 @@ const about = {
     backend: ["Node.js", "Express", "Mongoose", "MongoDB", "Django", "Postgres", "SQL"],
     development: ["Git/Github", "Jest", "AWS", "NPM/Yarn", "Heroku"]
   },
-  planningToLearn: ["Next.js", "serverless", "Alexa skill development", "Tensorflow"],
+  planningToLearn: ["Next.js", "Serverless Back End", "Alexa skill development", "Tensorflow"],
   hobbies: ["Cooking", "Reading, epecially fiction and biographies", "Watching a soccer game"],
 };
 
