@@ -5,11 +5,11 @@ const StaticIntro = () => (
     <div className="intro">
       <header>
         <h1 className="title sliding-vertical fadeinUp">
-          <span>Hello</span>
-          <span>Bonjour</span>
-          <span>Ciao</span>
-          <span>Hola</span>
-          <span>Merhaba</span>
+          <span>Hello!</span>
+          <span>Bonjour!</span>
+          <span>Ciao!</span>
+          <span>Hola!</span>
+          <span>Merhaba!</span>
         </h1>
       </header>
       <section>

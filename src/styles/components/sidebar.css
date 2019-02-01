@@ -3,8 +3,9 @@
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 33%;
-  margin: 0 auto;
+  width: 22em;
+  min-width: 22em;
+  margin-right: 3.5em;
 }
 
 .sidebar section  {
@@ -18,9 +19,9 @@
 }
 
 .sidebar .header {
-  height: 20em;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(201, 201, 201);
   margin-bottom: 2em;
+  padding-bottom: 4em;
 }
 
 .sidebar .header h1 {
@@ -35,14 +36,15 @@
 .sidebar-blurb {
   height: 10em;
   line-height: 2em 0;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(201, 201, 201);
 }
 
 .sidebar-blurb p {
+  font-size: .9em;
   line-height: 2;
 }
 
-.sidebar .contact ul {
+.sidebar-contact ul {
   display: flex;
   margin: 2.5em 0;
 }
