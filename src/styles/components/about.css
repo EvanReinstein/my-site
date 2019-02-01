@@ -3,11 +3,16 @@
   flex-direction: column;
 }
 
+.about .icon {
+  padding-right: 5px;
+}
+
 .about header {
   height: 11em;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 2em;
   padding-left: 3em;
   border-bottom: 1px solid rgb(130, 184, 255);
 }
@@ -27,38 +32,46 @@
   justify-content: center;
 }
 
-.introduction {
-  margin: 3em 0;
+.introduction,
+.skills,
+.hobbies,
+.learn {
+  margin: 1.3em 0;
 }
 
 .introduction h3,
-.skills h3 {
+.skills h3,
+.hobbies h3,
+.learn h3 {
   font-size: .8em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .1em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 
 .introduction p {
   line-height: 2;
+  padding-bottom: 1.1em;
 }
 
 .skills-wrap {
-  margin-top: .5em;
   display: flex;
-  justify-content: space-around;
 }
 
 .skills h4 {
-  margin-left: -1.5em;
-  padding-bottom: 1em;
+  padding-bottom: 1.2em;
 }
 
 .skills ul {
-  padding-bottom: 1em;
+  padding: 0 5em 1em 0;
 }
 
 .skill {
-  padding-bottom: 1em;
+  padding: 0 0 1.3em 1em;
+}
+
+.hobby,
+.learn {
+  padding-bottom: 1.3em;
 }

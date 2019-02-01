@@ -3,10 +3,10 @@ const about = {
   skills: {
     frontend: ["JavaScript ES2018", "React", "jQuery", "Python", "HTML5", "CSS3", "Sass", "Bootstrap", "React Native"],
     backend: ["Node.js", "Express", "Mongoose", "MongoDB", "Django", "Postgres", "SQL"],
-    development: []
+    development: ["Git/Github", "Jest", "AWS", "NPM/Yarn", "Heroku"]
   },
   planningToLearn: ["Next.js", "serverless", "Alexa skill development", "Tensorflow"],
-  hobbies: ["Cooking", "Reading, epecially fiction and biographies", "Tending to my plants"],
+  hobbies: ["Cooking", "Reading, epecially fiction and biographies", "Watching a soccer game"],
 };
 
 export default about;
