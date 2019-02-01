@@ -8,26 +8,39 @@ const About = (props) => {
     <div className="about">
       <header>
         <h1 className="title">About</h1>
-        <p>Through the looking glass</p>
+        <p className="subtitle">Through the looking glass</p>
       </header>
       <section>
         <article className="introduction">
+          <h3>Introduction</h3>
+          <p>{props.data.intro}</p>
+        </article>
+        <article className="skills">
           <h3>Some skills I know</h3>
           <div className="skills-wrap">
             <ul>
               <h4>Front End</h4>
-              {props.data.skills.frontend.map(skill =>
-                 <li key={skill} className="skill"><Icon icon={caretRight} size={12} className="icon"/>{skill}</li>)}
+              {props.data.skills.frontend.map(skill => (
+                 <li key={skill} className="skill">
+                   <Icon icon={caretRight} size={12} className="icon"/>{skill}
+                 </li>
+               ))}
             </ul>
             <ul>
               <h4>Back End</h4>
-              {props.data.skills.backend.map(skill =>
-                 <li key={skill} className="skill"><Icon icon={caretRight} size={12} className="icon"/>{skill}</li>)}
+              {props.data.skills.backend.map(skill => (
+                 <li key={skill} className="skill">
+                   <Icon icon={caretRight} size={12} className="icon"/>{skill}
+                 </li>
+               ))}
             </ul>
             <ul>
               <h4>Development</h4>
-              {props.data.skills.development.map(skill =>
-                <li key={skill} className="skill"><Icon icon={caretRight} size={12} className="icon"/>{skill}</li>)}
+              {props.data.skills.development.map(skill => (
+                <li key={skill} className="skill">
+                  <Icon icon={caretRight} size={12} className="icon"/>{skill}
+                </li>
+              ))}
             </ul>
           </div>
         </article>
@@ -35,7 +48,10 @@ const About = (props) => {
           <h3>When I'm not coding, I am probably...</h3>
           <ul>
             {props.data.hobbies.map(hobby => (
-              <li key={hobby} className="hobby"><Icon icon={caretRight} size={12} className="icon"/>{hobby}</li>))}
+              <li key={hobby} className="hobby">
+                <Icon icon={caretRight} size={12} className="icon"/>{hobby}
+              </li>
+            ))}
           </ul>
         </article>
         <article className="learn">

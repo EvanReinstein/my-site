@@ -4,7 +4,7 @@ const Experience = (props) => (
   <div class="experience">
     <header>
       <h1 className="title">Experience</h1>
-      <p>Positions that I have held:</p>
+      <p className="subtitle">Positions that I have held:</p>
     </header>
     <section>
       {props.data.map(job => (
