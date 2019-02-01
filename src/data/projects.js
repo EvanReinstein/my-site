@@ -33,7 +33,7 @@ const data  = [
   {
     title: "Check Your Rep",
     desc: "An app that allows you to search for your local elected representatives",
-    tech: ["JS", "jQuery", "CSS", "Node.js", "Express", "MongoDB"],
+    tech: ["jQuery", "CSS", "Node.js", "Express", "MongoDB"],
     image: "",
     repoLink: "https://github.com/EvanReinstein/find_rep_app",
     date: "September 2018",

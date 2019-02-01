@@ -1,5 +1,4 @@
 .projects {
-  font-family: 'Roboto Slab', serif;
   display: flex;
   flex-direction: column;
 }
@@ -118,7 +117,7 @@
 .other ul {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 1em 1em 0;
+  padding: 0 .5em 1em 0;
   line-height: 2;
 }
 
