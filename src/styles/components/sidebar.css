@@ -32,18 +32,22 @@
   padding-bottom: .75em;
 }
 
-.sidebar .blurb p {
-  height: 15em;
-  line-height: 2em;
+.sidebar-blurb {
+  height: 10em;
+  line-height: 2em 0;
   border-bottom: 1px solid grey;
+}
+
+.sidebar-blurb p {
+  line-height: 2;
 }
 
 .sidebar .contact ul {
   display: flex;
-  margin-top: 2em;
+  margin: 2.5em 0;
 }
 
-.sidebar .contact .link {
+.sidebar-contact .link {
   color: black;
   padding-right: 1em;
 }
