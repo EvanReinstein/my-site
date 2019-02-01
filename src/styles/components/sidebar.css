@@ -81,6 +81,12 @@
     width: 70%;
   }
 
+  .sidebar-blurb p {
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
   .copyright {
     float: right;
     position: relative;

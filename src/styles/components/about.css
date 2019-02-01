@@ -81,3 +81,24 @@
 .learn {
   padding-bottom: 1.3em;
 }
+
+@media only screen and (max-width: 474px) {
+  .skills ul {
+    padding: 0 .8em 1em 0;
+  }
+}
+
+@media only screen and (max-width: 439px) {
+  .skills-wrap {
+    flex-direction: column;
+  }
+
+  .skills ul {
+    padding: 0 .8em 1em .9em;
+  }
+
+  .hobby,
+  .learn {
+    font-size: .8em;
+  }
+}

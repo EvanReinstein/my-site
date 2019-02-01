@@ -17,7 +17,7 @@ const Projects = (props) => {
       <section>
         {featured.map(project => (
             <article key={project.title} className="featured project">
-              <img src={`${project.image}`} alt=""/>
+              <img src={`${project.image}`} alt="" className="project-image"/>
               <div>
                 <h2>{project.title}</h2>
                 <a href={`${project.repoLink}`} target="_blank" rel="noopener noreferrer"><Icon icon={githubSquare} size={30} className="gh"/></a>
@@ -31,7 +31,7 @@ const Projects = (props) => {
         ))}
 
         <h1 className="other-title">Other Projects</h1>
-        <div>
+        <div className="other">
           {nonfeatured.map(project => (
             <article key={project.title} className="project">
               <Icon icon={code} size={30} className="code"/>
