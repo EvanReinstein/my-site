@@ -21,6 +21,7 @@ const Sidebar = () => {
               </a>
             </li>)}
         </ul>
+        <p className="copyright">&copy; Evan Reinstein 2019</p>
       </section>
     </div>
   )
